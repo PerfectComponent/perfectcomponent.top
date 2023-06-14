@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "import-helpers/order-imports": "off",
+    "prettier/prettier": ["error", { "endOfLine": "off" }],
   },
   settings: {
     react: {
