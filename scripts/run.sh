@@ -1,0 +1,1 @@
+/home/ubuntu/program/perfectcomponent.top/node_modules/next/dist/bin/next start
