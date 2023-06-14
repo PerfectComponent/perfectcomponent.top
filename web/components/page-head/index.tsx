@@ -68,8 +68,8 @@ function PageHeadByName({ page }: { page: string }) {
             hrefLang={locale}
             href={
               locale === config.defaultLocale
-                ? `https://grida.co/${_path}`
-                : `https://grida.co/${locale}/${_path}`
+                ? `https://aihelp.top/${_path}`
+                : `https://aihelp.top/${locale}/${_path}`
             }
           />
         ))}

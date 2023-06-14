@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://grida.co",
+  siteUrl: process.env.SITE_URL || "https://aihelp.top",
   changefreq: "weekly",
   priority: 1,
   sitemapSize: 5000,
@@ -12,6 +12,6 @@ module.exports = {
         allow: "/",
       },
     ],
-    additionalSitemaps: ["https://grida.co/docs/sitemap.xml"],
+    additionalSitemaps: ["https://aihelp.top/docs/sitemap.xml"],
   },
 };

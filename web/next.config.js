@@ -31,12 +31,12 @@ const nextconfig = {
       },
       {
         source: "/code",
-        destination: "https://code.grida.co",
+        destination: "https://code.aihelp.top",
         permanent: false,
       },
       {
         source: "/console",
-        destination: "https://console.grida.co",
+        destination: "https://console.aihelp.top",
         permanent: false,
       },
       {

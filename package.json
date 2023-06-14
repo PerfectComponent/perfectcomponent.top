@@ -1,9 +1,9 @@
 {
-  "name": "grida.co",
+  "name": "perfectcomponent.top",
   "private": true,
-  "author": "grida.co",
+  "author": "perfectcomponent.top",
   "repository": {
-    "url": "https://github.com/gridaco/grida.co"
+    "url": "https://github.com/PerfectComponent/perfectcomponent.top"
   },
   "workspaces": [
     "web",

@@ -15,7 +15,7 @@ import {
   PopupInfo,
   PopupProvider,
 } from "utils/context/PopupContext";
-import { analytics } from "utils/firebase";
+// import { analytics } from "utils/firebase";
 import { BodyCustomStyleInAbosulteSectionLayout } from "utils/styled/styles";
 import { MDXProvider } from "@mdx-js/react";
 import { _MDX_COMPONENTS } from "components/mdx";
@@ -73,7 +73,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
       return;
     }
     // region set firebase analytics
-    analytics();
+    // analytics();
     // endregion set firebase analytics
   }, [router.events, router.pathname]);
 
@@ -124,7 +124,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('set', 'linker', {
-		            'domains': ['accounts.grida.co', 'app.grida.co', 'code.grida.co', 'console.grida.co']
+		            'domains': ['accounts.aihelp.top', 'app.aihelp.top', 'code.aihelp.top', 'console.aihelp.top']
 		        });
             gtag('js', new Date());
             gtag('config', 'AW-922132529');

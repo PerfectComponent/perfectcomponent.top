@@ -12,21 +12,21 @@ export function signup_callback_redirect_uri() {
 }
 
 function signin_callback_redirect_uri() {
-  return "https://grida.co/";
+  return "https://aihelp.top/";
 }
 
 export const LandingpageUrls = {
   /**
    * return to home after signin
    */
-  signin_with_return: `https://accounts.grida.co/signin?redirect_uri=${signin_callback_redirect_uri()}`,
+  signin_with_return: `https://accounts.aihelp.top/signin?redirect_uri=${signin_callback_redirect_uri()}`,
 
   // todo region swap sign up when ready
   /**
    * return to home after signup
    */
-  signup_with_return: `https://accounts.grida.co/signup?redirect_uri=${signup_callback_redirect_uri()}`,
-  signup: "https://accounts.grida.co/signup",
+  signup_with_return: `https://accounts.aihelp.top/signup?redirect_uri=${signup_callback_redirect_uri()}`,
+  signup: "https://accounts.aihelp.top/signup",
   // todo endregion swap sign up when ready
 
   // video
@@ -39,9 +39,9 @@ export const LandingpageUrls = {
   /**
    * demo
    */
-  try_the_demo_1: "https://console.grida.co",
-  app: "https://app.grida.co",
-  current_app: "https://code.grida.co", // temporary primary app redirection to code.grida.co until app.grida.co is ready.
+  try_the_demo_1: "https://console.aihelp.top",
+  app: "https://app.aihelp.top",
+  current_app: "https://code.aihelp.top", // temporary primary app redirection to code.aihelp.top until app.aihelp.top is ready.
 
   // misc
   privacy_policy: "/docs/support/privacy-policy",

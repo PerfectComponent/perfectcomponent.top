@@ -1,11 +1,13 @@
 import firebase from "firebase/app";
 
-import { analytics } from "utils/firebase";
+// import { analytics } from "utils/firebase";
 
 // ------------------------------------
-let a: firebase.analytics.Analytics | undefined;
+// let a: firebase.analytics.Analytics | undefined;
+let a;
 try {
-  a = analytics();
+  // a = analytics();
+  a={}
 } catch (e) {
   console.warn(
     "analytics not available - this can happen in dev mode (and you are a contributor)",

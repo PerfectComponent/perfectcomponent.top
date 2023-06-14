@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://grida.co
+Host: https://aihelp.top
 
 # Sitemaps
-Sitemap: https://grida.co/sitemap.xml
-Sitemap: https://grida.co/docs/sitemap.xml
+Sitemap: https://aihelp.top/sitemap.xml
+Sitemap: https://aihelp.top/docs/sitemap.xml

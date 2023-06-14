@@ -2,7 +2,7 @@ import Axios from "axios";
 
 const _HOST =
   process.env.NODE_ENV == "production"
-    ? "https://accounts.services.grida.co"
+    ? "https://accounts.aihelp.top"
     : "http://localhost:9002";
 
 const axios = Axios.create({
@@ -35,7 +35,7 @@ export async function startAnonymousFigmaAccessTokenOneshot() {
     // ${_HOST}/anonymous-accounts/figma-anonymous/start
     `start`,
     {
-      callbackTo: "grida.co/figma-instant-auth-callback",
+      callbackTo: "aihelp.top/figma-instant-auth-callback",
     },
   );
 

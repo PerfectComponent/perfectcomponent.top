@@ -12,7 +12,7 @@ export default function CareersPage() {
   const { t } = useTranslation("page-careers");
   const router = useRouter();
   const onContact = () => {
-    router.push("mailto:universe@grida.co");
+    router.push("mailto:universe@aihelp.top");
   };
   return (
     <>

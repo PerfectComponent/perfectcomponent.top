@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
       <PageHead type="id" page="cli">
-        <link rel="alternate" hrefLang="en" href={`https://grida.co/cli`} />
+        <link rel="alternate" hrefLang="en" href={`https://aihelp.top/cli`} />
       </PageHead>
       <div
         style={{
