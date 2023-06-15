@@ -94,6 +94,9 @@ const Footer = () => {
         >
           <Text>Copyright © {new Date().getFullYear()} PerfectComponent Inc.</Text>
           <Flex className="locales">
+            <Link href={router.route} locale="zh">
+              中文
+            </Link>
             <Link href={router.route} locale="en">
               English
             </Link>

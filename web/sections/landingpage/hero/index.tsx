@@ -24,17 +24,17 @@ export default function HeroResponsive() {
         </HeroTextAndBody>
         <CtaArea mode="hero-cta" />
       </HeroTextAreaWithCta>
-      <DesignToolExampleContainer>
+      {/* <DesignToolExampleContainer>
         <Image
           src="/assets/design-platforms/figma.png"
           width={907}
           height={571}
           layout="fill"
         />
-      </DesignToolExampleContainer>
-      <IPhoneXFrame>
+      </DesignToolExampleContainer> */}
+      {/* <IPhoneXFrame>
         <MusicHome scale={0.753} />
-      </IPhoneXFrame>
+      </IPhoneXFrame> */}
     </Wrapper>
   );
 }
