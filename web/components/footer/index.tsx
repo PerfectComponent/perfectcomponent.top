@@ -93,7 +93,11 @@ const Footer = () => {
           my="24px"
         >
           <Text>Copyright © {new Date().getFullYear()} PerfectComponent Inc.</Text>
+
           <Flex className="locales">
+            <Link href="https://beian.miit.gov.cn/" locale="zh">
+            京ICP备2022004124号-1
+            </Link>
             <Link href={router.route} locale="zh">
               中文
             </Link>
